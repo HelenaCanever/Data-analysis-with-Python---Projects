@@ -50,6 +50,9 @@ In the project:
 - I add an overweight column to the data. To determine if a person is overweight, I their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. The value 0 is used for NOT overweight and the value 1 for overweight.
 - I normalize the data by making 0 always good and 1 always bad. If the value of cholesterol or gluc is 1, the value becomes 0. If the value is more than 1, it becomes 1.
 - I convert the data into long format and create a chart that shows the value counts of the categorical features using seaborn's catplot().
+
+---> image here
+
 - I clean the data, filtering out the following patient segments that represent incorrect data:
     - diastolic pressure is higher than systolic
     - height is less than the 2.5th percentile
@@ -58,5 +61,33 @@ In the project:
     - weight is more than the 97.5th percentile
     - Finally, I create a correlation matrix using the dataset. 
 
+---> image here
+
 ## Project 4 : Page View Time Series Visualizer
 
+This project visualizes a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03. The data visualizations realized using Pandas, Matplotlib, and Seaborn highlight the patterns in visits and identify yearly and monthly growth.
+
+More in detail:
+- I clean the data by filtering out days when the page views were in the top 2.5% of the dataset or bottom 2.5% of the dataset.
+- Create a ```draw_line_plot``` function that uses Matplotlib to draw a line chart displaying "Page Views" as a function of "Date".
+
+---> image here
+
+- Create a ```draw_bar_plot``` function that draws a bar chart showing the average daily page views for each month grouped by year.
+
+ ---> image here
+ 
+- Create a ```draw_box_plot``` function that uses Seaborn to draw two adjacent box plots showing how the values are distributed within a given year or month and how it compares over time.
+
+---> image here
+
+## Project 5 : Sea Level Predictor
+
+In this project I snalyze a dataset of the global average sea level change since 1880 and use the data to predict the sea level change through year 2050.
+
+More in detail:
+- I use matplotlib to create a scatter plot using the "Year" column as the x-axis and the "CSIRO Adjusted Sea Level" column as the y-axix.
+- I use the ```linregress``` function from scipy.stats to get the slope and y-intercept of the line of best fit and plot the line of best fit over the top of the scatter plot.
+- I plot a new line of best fit just using the data from year 2000 through the most recent year in the dataset and make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
+
+! [sea_level_plot] (sea_level_plot.png)
