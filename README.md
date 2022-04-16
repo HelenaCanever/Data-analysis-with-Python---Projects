@@ -3,7 +3,7 @@
 These projects are part of the "Data Analysis with Python" curriculum on FreeCodeCamp. Descriptions of the projects and examples are taken from 
 https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects
 
-## Project 1 : Mean-Variance-Standard Deviation Calculator
+## Project 1 : Mean-Variance-Standard Deviation Calculator ✏️
 
 The aim is to create a function named ```calculate()``` that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 
@@ -27,7 +27,7 @@ Output:
 }
 ```
 
-## Project 2 : Demographic Data Analyzer
+## Project 2 : Demographic Data Analyzer 🌎
 
 The project consists in analyzing demographic data using Pandas. The dataset of demographic data  was extracted from the 1994 Census database. 
 In particular the project aims at knowing:
@@ -41,7 +41,7 @@ In particular the project aims at knowing:
 - What country has the highest percentage of people that earn >50K and what is that percentage?
 - What is the most popular occupation for those who earn >50K in India?
 
-## Project 3 : Medical Data Visualizer
+## Project 3 : Medical Data Visualizer :stethoscope:
 
 The project aims at visualizing and making calculations from medical examination data using matplotlib, seaborn, and pandas. The dataset values were collected during medical examinations. The rows in the dataset represent patients and the columns represent information like body measurements, results from various blood tests, and lifestyle choices.The goal is to use the dataset to explore the relationship between cardiac disease, body measurements, blood markers, and lifestyle choices.
 
@@ -60,7 +60,7 @@ In the project:
     - Finally, I create a correlation matrix using the dataset. 
 ![heatmap_med_data](heatmap_med_data.png)
 
-## Project 4 : Page View Time Series Visualizer
+## Project 4 : Page View Time Series Visualizer :telescope:
 
 This project visualizes a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03. The data visualizations realized using Pandas, Matplotlib, and Seaborn highlight the patterns in visits and identify yearly and monthly growth.
 
@@ -73,7 +73,7 @@ More in detail:
 - Create a ```draw_box_plot``` function that uses Seaborn to draw two adjacent box plots showing how the values are distributed within a given year or month and how it compares over time.
 ![box_plot_time](box_plot_time.png)
 
-## Project 5 : Sea Level Predictor
+## Project 5 : Sea Level Predictor 🌊
 
 In this project I snalyze a dataset of the global average sea level change since 1880 and use the data to predict the sea level change through year 2050.
 
